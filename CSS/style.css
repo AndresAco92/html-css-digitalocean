@@ -1,0 +1,41 @@
+nav{
+  height: 60px;
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+nav img{
+  max-width: 200px;
+  height: auto;
+}
+
+nav ul{
+  margin-top: 14px;
+}
+
+nav ul li{
+  padding-right: 10px;
+}
+
+nav ul.nv-mg{
+  margin: 8px;
+}
+
+nav .btt-blu{
+  color: #5FA1FF;
+  border-color: #5FA1FF;
+  margin-top: -2px;
+}
+ /* SECTION CLOUD */
+section .cloud{
+  width: 100%;
+  margin-top: 60px;
+  background-image: url(../img/bg-banner-home.jpg);
+}
+
+section .bk-w{
+  background-color: #5FA1FF;
+  border-radius: 10px;
+}
