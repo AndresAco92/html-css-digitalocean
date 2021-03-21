@@ -13,26 +13,29 @@
   <!-- HEADER -->
   <header>
     <!-- SEZIONE NAV -->
-    <nav>
+    <nav class="bk-w">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-xs-6">
             <img src="img/logo.png" alt="logo">
           </div>
-          <div class="col-lg-5">
-            <ul class="list-unstyled list-inline">
+          <div class="col-xs-6 hidden-lg text-right">
+            <button class="ac-blu ac-mg btn-link"><i class="fas fa-bars"></i></button>
+          </div>
+          <div class="col-lg-5 visible-lg-block">
+            <ul class="list-unstyled list-inline text-center">
               <li>Products <i class="fas fa-chevron-down"></i></li>
               <li>Customers</li>
               <li>Community <i class="fas fa-chevron-down"></i></li>
               <li>Pricing</li>
             </ul>
           </div>
-          <div class="col-lg-4">
-            <ul class="nv-mg list-unstyled list-inline">
+          <div class="col-lg-4 visible-lg-block">
+            <ul class="nv-mg list-unstyled list-inline text-right">
               <li>Docs</li>
               <li>Support <i class="fas fa-chevron-down"></i></li>
               <li>Login</li>
-              <li class="btt-blu btn btn-default">Sign Up</li>
+              <li class="btt ac-blu btn btn-default">Sign Up</li>
             </ul>
           </div>
         </div>
@@ -40,16 +43,27 @@
     </nav>
     <!-- SECTION CLOUD -->
     <section>
-      <div class="cloud">
+      <div class="cloud ac-pd">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8">aaaa</div>
-            <div class="col-lg-4"></div>
+            <div class="left ac-white">
+              <h1 class="ac-white">The simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            </div>
+            <div class="right ac-rad text-center bk-w">
+              <h3>Deploy your app in seconds.</h3>
+              <h3 class="ac-blu">Get started now.</h3>
+              <div class="form">
+                <input type="email" class="form-control mg-10" id="exampleInputEmail1" placeholder="Email">
+                <input type="password" class="form-control mg-10" id="exampleInputpassword1" placeholder="Password">
+              </div>
+              <button class="ac-btn mg-10">Created your account</button>
+              <button class="ac-btn-g mg-10">Sign up with google</button>
+              <p>by signing up you agree to the <u class="ac-blu" href="#">terms of Service</u>.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
   </header>
   <!-- MAIN -->
   <main></main>

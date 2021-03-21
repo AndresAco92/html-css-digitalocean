@@ -1,10 +1,40 @@
+/* class default */
+.txt-w{
+  color: #fff;
+}
+.ac-pd{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.ac-white{
+  color: #fff;
+}
+.ac-rad{
+  border-radius: 5px;
+}
+.ac-blu{
+  color: #004AFF;
+  cursor: pointer;
+}
+.bk-w{
+  background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6, ul{
+  font-weight: bold;
+}
+.mg-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* nav bar */
 nav{
-  height: 60px;
-  width: 100%;
-  padding: 10px 0;
   position: fixed;
   z-index: 999;
   top: 0;
+  height: 60px;
+  width: 100%;
+  padding: 10px 0;
 }
 nav img{
   max-width: 200px;
@@ -23,11 +53,15 @@ nav ul.nv-mg{
   margin: 8px;
 }
 
-nav .btt-blu{
-  color: #5FA1FF;
-  border-color: #5FA1FF;
+nav .btt{
   margin-top: -2px;
+  border-color: #004AFF;
 }
+
+nav .ac-mg{
+  margin-top: 7px;
+}
+
  /* SECTION CLOUD */
 section .cloud{
   width: 100%;
@@ -35,7 +69,65 @@ section .cloud{
   background-image: url(../img/bg-banner-home.jpg);
 }
 
-section .bk-w{
-  background-color: #5FA1FF;
-  border-radius: 10px;
+.cloud .left{
+  width: 61%;
+  float: left;
+  font-size: 1.6em;
+  padding-right: 56px;
+  color: #BBCDFF;
+}
+
+.cloud .left h1{
+  font-size: 2.4em;
+}
+
+/* CLOUD LATO DESTRO */
+.cloud .right{
+  width: 39%;
+  float: left;
+  padding: 25px 20px;
+}
+.cloud .right h3{
+  line-height: 15px;
+}
+
+.cloud .ac-btn{
+  color: #fff;
+  background-color: #579AFF;
+  border: 1px solid #579AFF;
+}
+
+.cloud .ac-btn-g{
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+.cloud .ac-btn, .ac-btn-g{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 992px){
+  .cloud .left{
+    font-size: 22px;
+  }
+  .cloud .left h1{
+    font-size: 35px;
+  }
+  .cloud .right h3{
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cloud .left,
+  .cloud .right{
+    width: 100%;
+  }
+
+  .cloud .left{
+    padding: 0;
+  }
+
 }
