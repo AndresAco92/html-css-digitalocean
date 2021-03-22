@@ -2,6 +2,9 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
+.float-lft{
+  float: left;
+}
 .ac-pd{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -15,6 +18,9 @@
 .ac-blu{
   color: #004AFF;
   cursor: pointer;
+}
+.ac-grey{
+  color: #6F7B97;
 }
 .bk-w{
   background-color: #fff;
@@ -135,10 +141,9 @@ section .cloud{
 
 }
 /* SECTION INNOVATIVE */
-section.innovative h4{
-  color: #6F7B97;
+section.innovative h4, p {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 section.innovative .logos{
@@ -148,4 +153,89 @@ section.innovative .logos{
 section.innovative .logos img{
   height: 170px;
   max-width: 97%;
+}
+
+
+/* SECTION DEPLOY */
+section .title p{
+  font-size: 22.8px;
+}
+
+@media screen and (max-width: 768px){
+  section .title p{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  section .title h1{
+    font-size: 34px;
+  }
+  section .title p{
+    font-size: 21.5px;
+  }
+}
+
+/* BAR MENU AND APPS */
+
+
+section ul{
+  border-left: 2px solid lightgray;
+}
+
+section ul li{
+  padding: 10px;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+/* BAR MENU AND APPS RIGHT */
+section .right img{
+  margin: 10px 0;
+}
+
+section .right p{
+  font-size: 16.2px;
+}
+
+@media screen and (max-width: 425px){
+  section .title h1{
+    font-size: 30px;
+  }
+  section .title p{
+    font-size: 19px;
+  }
+}
+
+/* SECTION DESIGNED */
+section.designed .d-left, .d-right{
+  font-size: 80px;
+  margin-top: 200px;
+}
+
+section.designed i:hover{
+  color: black;
+  cursor: pointer;
+}
+
+section.designed .d-center img{
+  width: 100%;
+}
+
+section.designed .create p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+section.designed .circle li{
+  padding: 1px;
+}
+
+section.designed .circle li i{
+  color: #004AFF;
+}
+
+section.designed .circle i:hover{
+  background-color: #004AFF;
+  border-radius: 50%;
 }
